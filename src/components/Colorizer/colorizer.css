@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.colorSquare {
+  box-shadow: 0px 0px 25px 0px #333;
+  width: 242px;
+  height: 242px;
+  margin-bottom: 15px;
+}
+.colorArea input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+}
+.colorArea button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #666;
+  color: #fff;
+  border: 2px solid #666;
+}
+.colorArea button:hover {
+  background-color: #111111;
+  border-color: #111111;
+  cursor: pointer;
+}
