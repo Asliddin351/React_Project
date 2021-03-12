@@ -12,9 +12,9 @@ import PICACHU from '../../React_Project/src/assets/bg1.jpg'
     return (
         <div className='app'>
             <Header title='Something' descr='something else'/>
-            <Layout title='Somethin for layout' descr='somethin else for layout' urlBg={PICACHU} />
-            <Layout title='Somethin for layout' descr='somethin else for layout' colorBg={'red'}/>
-            <Layout title='Somethin for layout' descr='somethin else for layout' urlBg={PICACHU}/>
+            <Layout title='Something for layout' descr='something else for layout' urlBg={PICACHU} />
+            <Layout title='Something for layout' descr='something else for layout' colorBg={'red'}/>
+            <Layout title='Something for layout' descr='something else for layout' urlBg={PICACHU}/>
             <Footer />
         </div>
     )
