@@ -9,17 +9,7 @@
     z-index: 1;
 }
 
-.root::before {
-    content: '';
-    position: fixed;
-    background: url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a83c9ee4-6981-4ba7-8955-4ceac8f9778f/Stars.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210311%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210311T095925Z&X-Amz-Expires=86400&X-Amz-Signature=c0b1c2255bbe105809fed5ccc63b8261b764670d0a3825fa68ddc3aefea718f8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Stars.svg%22);
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 100vh;
-    z-index: -1;
-		animation: stars-move-in 1000ms 300ms forwards;
-    opacity: 0;
-}
+
 
 @keyframes stars-move-in {
     from {
